@@ -5,7 +5,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        grotesk: ["Space Grotesk", "sans-serif"],
+        StretchPro: ["Stretch Pro", "sans-serif"]
+      }
+    },
   },
   plugins: [],
 }

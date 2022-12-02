@@ -2,5 +2,9 @@ import { useState } from 'react'
 
 export default function App() {
 
-  return <h1 className='text-5xl'>Denmely Links</h1>
+  return (
+    <div className='text-center mt-24'>
+      <h1 className='text-5xl text-[#BCFE2F] font-StretchPro'>Denmely</h1>
+    </div>
+  )
   }

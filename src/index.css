@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "StretchPro";
+    src: url("./assets/fonts/StretchPro.otf");
+}
+
+@layer base {
+    body {
+        @apply bg-black;
+    }
+}
