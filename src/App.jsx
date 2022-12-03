@@ -1,10 +1,22 @@
-import { useState } from 'react'
+import { createBrowserRouter } from 'react-router-dom'
 
-export default function App() {
+import { Admin } from './pages/Admin'
+import { Home } from './pages/Home'
+import { Login } from './pages/Login'
 
-  return (
-    <div className='text-center mt-24'>
-      <h1 className='text-5xl text-[#BCFE2F] font-StretchPro'>Denmely</h1>
-    </div>
-  )
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Home/>
+  },
+  {
+    path: '/login',
+    element: <Login/>
+  },
+  {
+    path: '/admin',
+    element: <Admin/>
   }
+])
+
+export { router }
