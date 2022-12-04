@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "StretchPro";
-    src: url("./assets/fonts/StretchPro.otf");
+  font-family: "StretchPro";
+  src: url("./assets/fonts/StretchPro.otf");
 }
 
 @layer base {
-    body {
-        @apply bg-black;
-    }
+  body {
+    @apply bg-black;
+  }
 }
