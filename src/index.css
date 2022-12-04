@@ -9,6 +9,7 @@
 
 @layer base {
   body {
+    background: url("./assets/imgs/pattern-bg.svg");
     @apply bg-black;
   }
 }
