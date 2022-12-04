@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         grotesk: ["Space Grotesk", "sans-serif"],
         StretchPro: ["Stretch Pro", "sans-serif"]
+      },
+      colors: {
+        primary: "#BCFE2F"
       }
     },
   },
