@@ -3,7 +3,7 @@ import Alert from '../../assets/imgs/alert-triangle.png'
 
 export function Error() {
     return (
-      <div className='flex flex-col items-center justify-center w-screen h-screen space-y-8'>
+      <div className='flex flex-col items-center justify-center w-screen h-screen space-y-8 container max-w-screen-sm mx-auto px-6 text-center'>
         <img src={Alert} alt='Imagem de triângulo com interrogação' className='w-60 h-60'/>
         <h2 className='font-StretchPro text-5xl text-primary'>Error 404</h2>
         <p className='text-white font-grotesk text-xl'>☹️ Página não encontrada.</p>
